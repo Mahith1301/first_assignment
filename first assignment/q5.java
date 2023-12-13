@@ -2,7 +2,7 @@
 //take input numbers from user
  
 
-import java.util.*;
+import java.util.Scanner;
  
 public class q5
 {
@@ -14,8 +14,8 @@ public class q5
         Integer a=sc.nextInt();  
         System.out.println("enter second integer b = " );
         Integer b=sc.nextInt();
-        
-        int c;//third variable
+        // Third variable
+        int c;
         c=a;            //we are storing first number in temp
         a=b;            //we are assigning second number to firt number
         b=c;            //we are assigning temparary variable to second variable

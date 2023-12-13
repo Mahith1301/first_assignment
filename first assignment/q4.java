@@ -2,15 +2,19 @@
 //take length and breadth from user
  
 
-import java.util.*;
+import java.util.Scanner;
  
 public class q4
 {
     public static void main(String args[]){  
+        //
         Scanner sc = new Scanner(System.in); 
+
         System.out.println("enter length = ");
+
         float l=sc.nextFloat();  
         System.out.println("enter breadth =" );
+
         float b=sc.nextFloat();
         //area of rectangle is l*b
         System.out.println("area of given rectangle is "+(l*b));

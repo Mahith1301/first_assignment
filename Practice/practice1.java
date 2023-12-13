@@ -1,21 +1,59 @@
 package Practice;
+import java.util.*;
+import java.math.*;
 
-public class practice1 {
+
+class practice1 {
+            Scanner sc=new Scanner(System.in);
     public static void main(String args[]){
-        String str1=new String("Java");
 
-        int length =str1.length();
-        System.out.println(length);
+        student s1=new student();
 
-        String str2=str1.toLowerCase();
-        System.out.println(str2);
 
-        String str3=str1.toUpperCase();
-        System.out.println(str3);
+        s1.setdetails();
+        s1.getdetails();
 
-        String str4="   welcome   ";
-        str4=str4.trim();
-        System.out.println(str4);
+        
+}
+}
+class student{
+    private int rollnum;
+    private String name;
+    
+    public int m1,m2,m3;
+
+    Scanner sc=new Scanner(System.in);
+
+
+    student(){
+        System.out.println("object created");
+         System.out.println("constructor called");       
+        
+
     }
+    public void setdetails(){
+
+        System.out.println("student name");
+        name=sc.nextLine();
+
+        System.out.println("roll number");
+        rollnum=sc.nextInt();
+
+    }
+
+
+    public void getdetails(){
+        System.out.println("roll number is "+rollnum+" name is  "+name);
+
+    }
+
+
     
 }
+
+
+
+
+
+
+

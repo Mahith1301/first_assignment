@@ -2,7 +2,7 @@
 //take interger from user
  
 
-import java.util.*;
+import java.util.Scanner;
  
 public class q2
 {

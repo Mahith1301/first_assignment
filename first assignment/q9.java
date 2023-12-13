@@ -2,7 +2,7 @@
 //take binary input numbers from user
  
 
-import java.util.*;
+import java.util.Scanner;
  
 public class q9
 {
